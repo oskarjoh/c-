@@ -30,10 +30,5 @@ namespace ConsoleApp1
                 Console.WriteLine();
             }
         }
-
-        private static void elseif(string v)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
