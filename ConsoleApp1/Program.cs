@@ -23,12 +23,17 @@ namespace ConsoleApp1
                     Console.WriteLine("her står alt det du trenger å vite om spillet");
                     Console.WriteLine("");
 
-                } elseif ("q") {
+                } else {
                     break;
                 }
                 //lager melomrom
                 Console.WriteLine();
             }
+        }
+
+        private static void elseif(string v)
+        {
+            throw new NotImplementedException();
         }
     }
 }
