@@ -37,6 +37,9 @@ namespace ConsoleApp1
 
                 } else if(home == "q") {
                     break;
+                } else if(home == "start")
+                {
+
                 }
                 //lager melomrom
                 Console.WriteLine();
