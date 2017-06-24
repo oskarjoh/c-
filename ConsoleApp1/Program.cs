@@ -20,7 +20,7 @@ namespace ConsoleApp1
                 home = Console.ReadLine();
                 if (home == "help") {
                     Console.WriteLine("welkomen til help");
-                    Console.WriteLine("her står alt det du trenger å vite om programet");
+                    Console.WriteLine("her står alt det du trenger å vite om spillet");
                 } else
                 {
                     break;
