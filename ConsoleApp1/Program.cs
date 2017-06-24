@@ -39,7 +39,13 @@ namespace ConsoleApp1
                     break;
                 } else if(home == "start")
                 {
-
+                    int a = 0;
+                    while(a < 30)
+                    {
+                        a = ++a;
+                        Console.WriteLine("");
+                    }
+                    Console.WriteLine("");
                 }
                 //lager melomrom
                 Console.WriteLine();
