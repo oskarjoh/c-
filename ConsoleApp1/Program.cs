@@ -23,6 +23,8 @@ namespace ConsoleApp1
             Console.WriteLine("username");
            yore_name = Console.ReadLine();
             Console.WriteLine("hallo {0}", yore_name);
+
+            
             while (true) {
                 Console.WriteLine("hva vil du jøre nå {0}", yore_name);
                 Console.WriteLine("skriv 'start' vis du vil starte spillet.");
