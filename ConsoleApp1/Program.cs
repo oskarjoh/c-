@@ -10,6 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            //dete skal vere logoen eter vert
             string logo =
                 " x x xxx" +
                 "  x x  x" +
@@ -24,7 +25,7 @@ namespace ConsoleApp1
            yore_name = Console.ReadLine();
             Console.WriteLine("hallo {0}", yore_name);
 
-            
+            //her er start menyen
             while (true) {
                 Console.WriteLine("hva vil du jøre nå {0}", yore_name);
                 Console.WriteLine("skriv 'start' vis du vil starte spillet.");
@@ -39,6 +40,7 @@ namespace ConsoleApp1
                     break;
                 } else if(home == "start")
                 {
+                    //dene delen skal lage en tom side med melomron
                     int a = 0;
                     while(a < 30)
                     {
@@ -46,6 +48,7 @@ namespace ConsoleApp1
                         Console.WriteLine("");
                     }
                     Console.WriteLine("");
+
                 }
                 //lager melomrom
                 Console.WriteLine();
