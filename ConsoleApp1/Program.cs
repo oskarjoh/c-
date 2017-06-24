@@ -21,6 +21,9 @@ namespace ConsoleApp1
                 if (home == "help") {
                     Console.WriteLine("welkomen til help");
                     Console.WriteLine("her står alt det du trenger å vite om programet");
+                } else
+                {
+                    break;
                 }
                 //lager melomrom
                 Console.WriteLine();
