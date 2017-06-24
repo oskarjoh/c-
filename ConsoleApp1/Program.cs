@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string home;
+            string home; //string home er den som sier vis man skriver noe på startmenyen
             string yore_name;
             Console.WriteLine("skriv navnet til karakteren");
            yore_name = Console.ReadLine();
@@ -21,6 +21,8 @@ namespace ConsoleApp1
                 if (home == "help") {
                     Console.WriteLine("welkomen til help");
                     Console.WriteLine("her står alt det du trenger å vite om spillet");
+                    Console.WriteLine("");
+
                 } else
                 {
                     break;
