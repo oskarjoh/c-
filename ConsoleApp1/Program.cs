@@ -23,8 +23,7 @@ namespace ConsoleApp1
                     Console.WriteLine("her står alt det du trenger å vite om spillet");
                     Console.WriteLine("");
 
-                } else
-                {
+                } elseif ("q") {
                     break;
                 }
                 //lager melomrom
