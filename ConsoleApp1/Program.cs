@@ -15,13 +15,15 @@ namespace ConsoleApp1
             Console.WriteLine("skriv navnet dit");
            yore_name = Console.ReadLine();
             Console.WriteLine("hallo {0}", yore_name);
-            Console.WriteLine("hva vil du jøre nå {0}", yore_name);
-            home = Console.ReadLine();
-            while (true) { 
+            while (true) {
+                Console.WriteLine("hva vil du jøre nå {0}", yore_name);
+                home = Console.ReadLine();
                 if (home == "help") {
                     Console.WriteLine("welkomen til help");
                     Console.WriteLine("her står alt det du trenger å vite om programet");
                 }
+                //lager melomrom
+                Console.WriteLine();
             }
         }
     }
