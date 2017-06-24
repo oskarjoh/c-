@@ -12,7 +12,7 @@ namespace ConsoleApp1
         {
             string home;
             string yore_name;
-            Console.WriteLine("skriv navnet dit");
+            Console.WriteLine("skriv navnet til karakteren");
            yore_name = Console.ReadLine();
             Console.WriteLine("hallo {0}", yore_name);
             while (true) {
