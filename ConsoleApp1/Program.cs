@@ -11,9 +11,6 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             string yore_name;
-            int i = 0;
-            i = i+2;
-            Console.WriteLine(i.ToString());
             Console.WriteLine("skriv navnet dit");
            yore_name = Console.ReadLine();
             Console.WriteLine("hallo {0}", yore_name);
