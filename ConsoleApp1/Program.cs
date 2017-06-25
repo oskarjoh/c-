@@ -61,7 +61,7 @@ namespace ConsoleApp1
 
         private static void Snaik()
         {
-            Console.WriteLine("test");
+            Console.WriteLine("xxx#  *");
         }
     }
 }
