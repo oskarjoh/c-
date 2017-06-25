@@ -67,10 +67,8 @@ namespace ConsoleApp1
         //dene koden skal sete bloben runt omkring tilfeldig
         static void blob()
         {
-            for (int x = 0; x < 50; x++) { 
             string blobb = "*";
-            Console.WriteLine("{0}", blobb);
-            }
+            Random.Equals(blobb, 1);
         }
 
         static void Snaik()
