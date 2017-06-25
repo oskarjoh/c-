@@ -93,7 +93,7 @@ namespace ConsoleApp1
                 Console.Clear();
                 if (hoofd.xpos == screenwidth-1 || hoofd.xpos == 0 || hoofd.ypos == screenheight-1 || hoofd.ypos == 0)
                 {
-
+                    gameover = 1;
                 }
             }
         }
