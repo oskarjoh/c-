@@ -82,6 +82,20 @@ namespace ConsoleApp1
             hoofd.schermkleur = ConsoleColor.Red;
             string movement = "RIGHT";
             List<int> xposlijf = new List<int>();
+            List<int> yposlijf = new List<int>();
+            int berryx = randomnomber.Next(0, screenwidth);
+            int berryy = randomnomber.Next(0, screenheight);
+            DateTime tijd = DateTime.Now;
+            DateTime tijd2 = DateTime.Now;
+            string buttonpressed = "no";
+            while (true)
+            {
+                Console.Clear();
+                if (hoofd.xpos == screenwidth-1 || hoofd.xpos == 0 || hoofd.ypos == screenheight-1 || hoofd.ypos == 0)
+                {
+
+                }
+            }
         }
     }
 
