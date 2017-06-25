@@ -29,6 +29,9 @@ namespace ConsoleApp1
 
             //her er start menyen
             while (true) {
+                Console.WindowHeight = 20;
+                Console.WindowWidth = 60;
+
                 Console.WriteLine("hva vil du jøre nå {0}", yore_name);
                 Console.WriteLine("skriv 'start' vis du vil starte spillet.");
                 Console.WriteLine("hvis du vil vite mer om programet skriv 'help'.");
@@ -64,20 +67,14 @@ namespace ConsoleApp1
                 Console.WriteLine();
             }
         }
-        //dene koden skal sete bloben runt omkring tilfeldig
-        static void blob()
-        {
-            string blobb = "*";
-            Random.Equals(blobb, 1);
-        }
-
         static void Snaik()
         {
-            string slange_hode = "#";
-            string slange_krop = "x";
-            string blobb = "*";
-            Console.WriteLine("{1}{1}{0}   {2}", slange_hode, slange_krop, blobb);
-            blob();
+            Console.WindowHeight = 15;
+            Console.WindowWidth = 36;
+            int screenwidth = Console.WindowWidth;
+            int screenheight = Console.WindowHeight;
+            Random randomnomber = new Random();
+
         }
     }
 }
