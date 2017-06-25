@@ -98,7 +98,7 @@ namespace ConsoleApp1
                 for (int i = 0;i < screenwidth; i++)
                 {
                     Console.SetCursorPosition(i, 0);
-                    Console.Write("■")
+                    Console.Write("■");
                 }
             }
         }
