@@ -74,7 +74,21 @@ namespace ConsoleApp1
             int screenwidth = Console.WindowWidth;
             int screenheight = Console.WindowHeight;
             Random randomnomber = new Random();
-
+            int score = 5;
+            int gameover = 0;
+            pixel hoofd = new pixel();
+            hoofd.xpos = screenwidth / 2;
+            hoofd.ypos = screenheight / 2;
+            hoofd.schermkleur = ConsoleColor.Red;
+            string movement = "RIGHT";
+            List<int> xposlijf = new List<int>();
         }
+    }
+
+    internal class pixel
+    {
+        public int xpos { get; set; }
+        public int ypos { get; set; }
+        public ConsoleColor schermkleur { get; set; }
     }
 }
