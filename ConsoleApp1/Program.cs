@@ -51,19 +51,17 @@ namespace ConsoleApp1
                     }
                     Console.WriteLine("");
                     //her skal spillet starte
-
+                    Snaik();
 
                 }
                 //lager melomrom
                 Console.WriteLine();
             }
         }
-    }
-    class snaike
-    {
-        static void Snaik(string[] args)
-        {
 
+        private static void Snaik()
+        {
+            Console.WriteLine("test");
         }
     }
 }
