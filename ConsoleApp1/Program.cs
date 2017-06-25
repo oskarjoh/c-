@@ -61,7 +61,10 @@ namespace ConsoleApp1
 
         private static void Snaik()
         {
-            Console.WriteLine("xxx#  *");
+            string slange_hode = "#";
+            string slange_krop = "x";
+            string blob = "*";
+            Console.WriteLine("{1}{1}{0}   {2}", slange_hode, slange_krop, blob);
         }
     }
 }
