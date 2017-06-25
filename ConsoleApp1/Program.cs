@@ -48,6 +48,7 @@ namespace ConsoleApp1
                         Console.WriteLine("");
                     }
                     Console.WriteLine("");
+                    //her skal spillet starte
 
 
                 }
