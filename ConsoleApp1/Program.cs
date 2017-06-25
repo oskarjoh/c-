@@ -61,6 +61,9 @@ namespace ConsoleApp1
     }
     class snaike
     {
+        static void Snaik(string[] args)
+        {
 
+        }
     }
 }
