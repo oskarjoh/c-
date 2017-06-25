@@ -25,6 +25,8 @@ namespace ConsoleApp1
            yore_name = Console.ReadLine();
             Console.WriteLine("hallo {0}", yore_name);
 
+            
+
             //her er start menyen
             while (true) {
                 Console.WriteLine("hva vil du jøre nå {0}", yore_name);
@@ -56,5 +58,9 @@ namespace ConsoleApp1
                 Console.WriteLine();
             }
         }
+    }
+    class snaike
+    {
+
     }
 }
