@@ -58,13 +58,19 @@ namespace ConsoleApp1
                 Console.WriteLine();
             }
         }
+        //dene koden skal sete bloben runt omkring tilfeldig
+        private static void blob()
+        {
+            Console.WriteLine("");
+        }
 
         private static void Snaik()
         {
             string slange_hode = "#";
             string slange_krop = "x";
-            string blob = "*";
-            Console.WriteLine("{1}{1}{0}   {2}", slange_hode, slange_krop, blob);
+            string blobb = "*";
+            Console.WriteLine("{1}{1}{0}   {2}", slange_hode, slange_krop, blobb);
+            blob();
         }
     }
 }
