@@ -17,7 +17,10 @@ namespace ConsoleApp1
             Console.WriteLine(" x  x  x");
             Console.WriteLine("  x  x x");
             Console.WriteLine("x  x  x ");
-            
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+
             string home; //string home er den som sier vis man skriver noe på startmenyen
             string yore_name;
             Console.WriteLine("username");
