@@ -63,7 +63,7 @@ namespace ConsoleApp1
 
                 }
                 //lager melomrom
-                Console.Write();
+                Console.WriteLine();
             }
         }
         static void Snaik()
