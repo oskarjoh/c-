@@ -11,18 +11,18 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             //dete skal vere logoen eter vert
-            Console.WriteLine(" x x xxx");
-            Console.WriteLine("  x x  x");
-            Console.WriteLine("x x x x ");
-            Console.WriteLine(" x  x  x");
-            Console.WriteLine("  x  x x");
-            Console.WriteLine("x  x  x ");
+            Console.Write(" x x xxx");
+            Console.Write("  x x  x");
+            Console.Write("x x x x ");
+            Console.Write(" x  x  x");
+            Console.Write("  x  x x");
+            Console.Write("x  x  x ");
             
             string home; //string home er den som sier vis man skriver noe på startmenyen
             string yore_name;
-            Console.WriteLine("username");
+            Console.Write("username");
            yore_name = Console.ReadLine();
-            Console.WriteLine("hallo {0}", yore_name);
+            Console.Write("hallo {0}", yore_name);
 
             
 
@@ -31,20 +31,20 @@ namespace ConsoleApp1
                 Console.WindowHeight = 20;
                 Console.WindowWidth = 60;
 
-                Console.WriteLine("hva vil du jøre nå {0}", yore_name);
-                Console.WriteLine("skriv 'start' vis du vil starte spillet.");
-                Console.WriteLine("hvis du vil vite mer om programet skriv 'help'.");
+                Console.Write("hva vil du jøre nå {0}", yore_name);
+                Console.Write("skriv 'start' vis du vil starte spillet.");
+                Console.Write("hvis du vil vite mer om programet skriv 'help'.");
                 home = Console.ReadLine();
                 if (home == "help") {
                     int a = 0;
                     while (a < 30)
                     {
                         a = ++a;
-                        Console.WriteLine("");
+                        Console.Write("");
                     }
-                    Console.WriteLine("welkomen til help");
-                    Console.WriteLine("her står alt det du trenger å vite om spillet");
-                    Console.WriteLine("");
+                    Console.Write("welkomen til help");
+                    Console.Write("her står alt det du trenger å vite om spillet");
+                    Console.Write("");
 
                 } else if(home == "q") {
                     break;
@@ -55,15 +55,15 @@ namespace ConsoleApp1
                     while(a < 30)
                     {
                         a = ++a;
-                        Console.WriteLine("");
+                        Console.Write("");
                     }
-                    Console.WriteLine("");
+                    Console.Write("");
                     //her skal spillet starte
                     Snaik();
 
                 }
                 //lager melomrom
-                Console.WriteLine();
+                Console.Write();
             }
         }
         static void Snaik()
