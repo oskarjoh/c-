@@ -11,16 +11,15 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             //dete skal vere logoen eter vert
-            string logo =
-                " x x xxx" +
-                "  x x  x" +
-                "x x x x " +
-                " x  x  x" +
-                "  x  x x" +
-                "x  x  x ";
+            Console.WriteLine(" x x xxx");
+            Console.WriteLine("  x x  x");
+            Console.WriteLine("x x x x ");
+            Console.WriteLine(" x  x  x");
+            Console.WriteLine("  x  x x");
+            Console.WriteLine("x  x  x ");
+            
             string home; //string home er den som sier vis man skriver noe på startmenyen
             string yore_name;
-            Console.WriteLine(logo);
             Console.WriteLine("username");
            yore_name = Console.ReadLine();
             Console.WriteLine("hallo {0}", yore_name);
