@@ -65,8 +65,13 @@ namespace ConsoleApp1
                     Snaik();
 
                 }
-                //lager melomrom
-                Console.WriteLine();
+                //dene delen skal lage en tom side med melomron
+                int a = 0;
+                while (a < 30)
+                {
+                    a = ++a;
+                    Console.WriteLine("");
+                }
             }
         }
         static void Snaik()
@@ -204,7 +209,6 @@ namespace ConsoleApp1
         }
     }
 }
-
 
     internal class pixel
     {
