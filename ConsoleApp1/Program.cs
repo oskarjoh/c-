@@ -39,10 +39,10 @@ namespace ConsoleApp1
                 Console.WriteLine("hvis du vil vite mer om programet skriv 'help'.");
                 home = Console.ReadLine();
                 if (home == "help") {
-                    int a = 0;
-                    while (a < 30)
+                    int s = 0;
+                    while (s < 30)
                     {
-                        a = ++a;
+                        s = ++s;
                         Console.WriteLine("");
                     }
                     Console.WriteLine("welkomen til help");
@@ -54,10 +54,10 @@ namespace ConsoleApp1
                 } else if(home == "start")
                 {
                     //dene delen skal lage en tom side med melomron
-                    int a = 0;
-                    while(a < 30)
+                    int b = 0;
+                    while(b < 30)
                     {
-                        a = ++a;
+                        b = ++b;
                         Console.WriteLine("");
                     }
                     Console.WriteLine("");
