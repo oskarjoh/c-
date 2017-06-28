@@ -209,7 +209,6 @@ namespace ConsoleApp1
         }
     }
 }
-
     internal class pixel
     {
         public int xpos { get; set; }
